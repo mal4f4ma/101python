@@ -2,7 +2,7 @@
 
 Este reporsitorio es con fines academicos, sirve para aprender los principios basicos de lenguaje python, dentro del ambiente windows.
 
-Por que aprender Python?
+## Por que aprender Python?
 
 Python es un lenguaje de programación interpretado, cuya filosofía hace hincapié en una sintaxis muy limpia y un código legible. Aquí les presento una lista de razones para aprender Python.
 
@@ -21,7 +21,7 @@ Python es un lenguaje de programación interpretado, cuya filosofía hace hincap
 * Sintaxis sencilla
 * Codigo organizado
 
-Requerimientos para tomar el 101 Python:
+## Requerimientos para tomar el 101 Python:
 
 * Editor de textos VSCODE, aunque puede ser tambien Atom, Sublimetext
 * La ultima version de python 3.8.3
