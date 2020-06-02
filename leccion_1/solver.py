@@ -1,3 +1,7 @@
+#Python 101 - lecion 1 - script
+#Title: solver.py
+#Author: n0tM4l4f4m4
+
 import string
 import string as st
 from string import ascii_letters as let
@@ -10,6 +14,8 @@ from string import *
 1
 3
 5+5
+True
+False
 
 #imperime type int
 print(type(10))
@@ -17,6 +23,8 @@ print(type(10))
 print(type(15.5))
 #imperime type string
 print(type('hola mundo!'))
+#imprime type bool 
+print(type(True))
 
 #esto si es un comentario
 
@@ -63,8 +71,5 @@ print("esto tambien es una cadena"[-5:-2])
 #imprime la cadena al reves
 print("esto tambien es una cadena"[::-1])
 
-
-
-
-
+#imprime el import que hicimos de los ascii_letters y que le pusimos el alias de let
 print(let)

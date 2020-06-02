@@ -1,14 +1,15 @@
-# Leccion 1 - Temario
+# Leccion 1 - Primer acercamiento
 
-* [Instalacion de python y agregar al path, documentacion](#Instalacion)
+* Instalacion de python y agregar al path, documentacion
 * Python en terminal
 * VSCODE editor de texto, configuracion
 * Tipos de datos
 * Strings o cadenas de caracteres
 * Modulos, como funcionan, primer import
-* [Bonus](#bonus)
+* Script
+* Bonus
 
-### Instalacion
+### Instalacion de python, agregar al path y documentacion
 
 1. Python ultma vertsion para windows [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Agregar al path python [https://www.kyocode.com/2019/10/agregar-python-path-windows/](https://www.kyocode.com/2019/10/agregar-python-path-windows/)
@@ -53,7 +54,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 <class 'int'>
 >>> type(1.5+2.64)
 <class 'float'>
->>>
+>>>True
+True
+>>>False
+False
 ```
 ### Strings o cadenas de caracteres
 Los sitrings en python son secuencias inmutables esto quiere decir que los strings como tal no se pueden modificar, a continuacion veremos como podemos escribir una string en python
@@ -115,6 +119,83 @@ import string as st #esta forma es igual que la anterior, solo que la palabra as
 from string import ascii_uppercase #con esta forma decimos que del modulo string import solo la constante ascii_uppercase, de esta manera solo tendremos acceso a eso que importamos
 
 from srting import * #de esta forma le decimos que importe todo
+```
+### Script
+Puedes copiar este script para ejecutarlo en tu consolo, solo debes ejecutar ```python solver.py``` desde tu temrinal, recuerda que debes estar en el directorio donde lo guardaste
+```python
+#Python 101 - lecion 1 - script
+#Title: solver.py
+#Author: n0tM4l4f4m4
+
+import string
+import string as st
+from string import ascii_letters as let
+from string import *
+#unos strins literal dentro del codigo
+'this is a string'
+
+"esto tambien es una cadena"
+#numero literal dentro del codigo y una operacion
+1
+3
+5+5
+
+#imperime type int
+print(type(10))
+#imprime type float
+print(type(15.5))
+#imperime type string
+print(type('hola mundo!'))
+#imprime type bool
+print(type(True))
+
+
+#esto si es un comentario
+
+"""
+esto es un bloque de 'comentario', python lo toma coomo un string literal, asi que no es un
+comentario como tal
+"""
+'''
+otro bloque de comentario, lo mismo que el de arriba
+'''
+
+#imprime las comillas simples
+print("Imprime comillas simples '' dentro de comillas dobles")
+
+#imprime las comillas simples usando como caracter de escape \' dentro de comillas simples
+print('Imprime comillas simples \'\' dentro de comillas simples')
+
+#concatena 2 strings de comillas dobles
+print("hola " + "mundo!")
+
+#concatena 2 strings de comillas simples
+print('hola ' + 'mundo!')
+
+#concatena 2 strings literales, comillas dobles y simples
+print("hola " + 'mundo!')
+
+#imprime un carcater del array indicado por el index
+print("esto tambien es una cadena"[1])
+
+#imprime a partir del carcater 5 hasta el final
+print("esto tambien es una cadena"[5:])
+
+#imprime a partir del indice de inicio hasta el 5
+print("esto tambien es una cadena"[:5])
+
+#imperime a partir del indice 0 hasta el -5, contando de derecha a izquierda
+print("esto tambien es una cadena"[:-5])
+
+#imprime del indice -5 al  -2
+print("esto tambien es una cadena"[-5:-2])
+
+#imprime la cadena al reves
+print("esto tambien es una cadena"[::-1])
+
+#imprime el import que hicimos de los ascii_letters y que le pusimos el alias de let
+print(let)
+
 ```
 
 ### Bonus
