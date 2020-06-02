@@ -1,6 +1,6 @@
 # Leccion 1 - Temario
 
-1. [Instalacion del python y agregar al path, documentacion](#Instalacion)
+* [Instalacion de python y agregar al path, documentacion](#instalacion)
 * Python en terminal
 * VSCODE editor de texto, configuracion
 * Tipos de datos
