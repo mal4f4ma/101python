@@ -1,13 +1,14 @@
 # Leccion 1 - Temario
 
-* Instalacion del python y agregar al path, documentacion
+1. [Instalacion del python y agregar al path, documentacion](#Instalacion)
 * Python en terminal
 * VSCODE editor de texto, configuracion
 * Tipos de datos
 * Strings o cadenas de caracteres
 * Modulos, como funcionan, primer import
+* [Bonus](#bonus)
 
-### Instalacion de python y agregar al path, mas documentacion.
+### Instalacion de python y agregar al path, mas documentacion
 
 1. Python ultma vertsion para windows [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Agregar al path python [https://www.kyocode.com/2019/10/agregar-python-path-windows/](https://www.kyocode.com/2019/10/agregar-python-path-windows/)
@@ -101,9 +102,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 18
 ```
 
-### Modulos, como funcionan, import
+### Modulos, como funciona, import
 Para usar librerias o modulos que nos faciliten la programacion o agreguen utilidades o funcionalidades a nuestros scripts podemos importar modulos de 2 maneras:
 Para este caso usaremos el **string module de python** documentacion [https://docs.python.org/3/library/string.html](https://docs.python.org/3/library/string.html)
+
+**Los imports siempre van al inicio de un archivo por convencion pero se pueden hacer en cualquier parte del codigo siempre y cuando se importe antes de usar el modulo y sus caracteristicas**
 ```python
 import string #con esta primer forma importamos todo el modulo como tal, esto quiere decir con todos sus metodos, constantes, etc
 
@@ -115,14 +118,20 @@ from srting import * #de esta forma le decimos que importe todo
 ```
 
 ### Bonus
+En python se utiliza el **#** como simbolo antes de un comenrario esto quiere decir que esa linea el interprete no la leera
+
+la implementacion de ocmentarios con comillas triles esta erronea
+
 ```python
 # comentario en una sola linea
-'''
-comentado bloques de codigo con triple comilla simple
-'''
-"""
-o triple comilla doble
-"""
 
 print('Hola mundo!') #comentario en linea de codigo, esta funcion imprime a pantalla
+
+'''
+comentado bloques de codigo con triple comilla simple, este tipo de comentario no es uno como tal, python lo toma como una literal string de varias lineas, asi que lo interpreta
+'''
+"""
+o triple comilla doble, lo mismo con esto
+"""
+
 ```
