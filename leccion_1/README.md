@@ -1,6 +1,6 @@
 # Leccion 1 - Temario
 
-* [Instalacion de python y agregar al path, documentacion](#instalacion)
+* [Instalacion de python y agregar al path, documentacion](#Instalacion)
 * Python en terminal
 * VSCODE editor de texto, configuracion
 * Tipos de datos
@@ -8,7 +8,7 @@
 * Modulos, como funcionan, primer import
 * [Bonus](#bonus)
 
-### Instalacion de python y agregar al path, mas documentacion
+### Instalacion
 
 1. Python ultma vertsion para windows [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Agregar al path python [https://www.kyocode.com/2019/10/agregar-python-path-windows/](https://www.kyocode.com/2019/10/agregar-python-path-windows/)
