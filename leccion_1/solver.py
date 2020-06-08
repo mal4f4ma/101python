@@ -1,4 +1,4 @@
-#Python 101 - lecion 1 - script
+#Python 101 - leccion 1 - script
 #Title: solver.py
 #Author: n0tM4l4f4m4
 
@@ -23,7 +23,7 @@ print(type(10))
 print(type(15.5))
 #imperime type string
 print(type('hola mundo!'))
-#imprime type bool 
+#imprime type bool
 print(type(True))
 
 #esto si es un comentario
